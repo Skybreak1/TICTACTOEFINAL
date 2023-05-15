@@ -36,7 +36,7 @@ namespace TicTacToe
             } while (gameStatus.Equals(0));
 
             Console.Clear();
-            HeadsUpDisplay(currentPlayer, player1Name, player2Name);
+            HeadsUpDisplay(currentPlayer, player1.Name, player2.Name);
             DrawGameboard(gameMarkers);
 
             if (gameStatus.Equals(1))
