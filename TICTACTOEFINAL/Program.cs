@@ -196,7 +196,7 @@ namespace TicTacToe
             Console.WriteLine($"Spieler 1({player1Name}): X");
             Console.WriteLine($"Spieler 2({player2Name}): O");
             Console.WriteLine();
-            Console.WriteLine($"{GetCurrentPlayerName}, wähle eine Zahl von 1 bis 9 aus");
+            Console.WriteLine($"{GetCurrentPlayerName(player, player1Name, player2Name)} wähle eine Zahl von 1 bis 9 aus");
             Console.WriteLine();
         }
 
