@@ -1,4 +1,5 @@
 ﻿using System;
+using TICTACTOEFINAL;
 
 namespace TicTacToe
 {
@@ -11,9 +12,11 @@ namespace TicTacToe
             char[] gameMarkers = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
             Console.WriteLine("Spieler 1, bitte geben Sie Ihren Namen ein:");
             string player1Name = Console.ReadLine();
+            Player player1 = new Player(player1Name, 'X');
 
             Console.WriteLine("Spieler 2, bitte geben Sie Ihren Namen ein:");
             string player2Name = Console.ReadLine();
+            Player player2 = new Player(player2Name, 'O');
 
 
             do
@@ -22,7 +25,7 @@ namespace TicTacToe
 
                 currentPlayer = GetNextPlayer(currentPlayer);
 
-                HeadsUpDisplay(currentPlayer, player1Name, player2Name);
+                HeadsUpDisplay(currentPlayer, player1.Name, player2.Name);
                 DrawGameboard(gameMarkers);
 
                 GameEngine(gameMarkers, currentPlayer);
