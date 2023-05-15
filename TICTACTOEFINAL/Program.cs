@@ -203,13 +203,33 @@ namespace TicTacToe
         static void DrawGameboard(char[] gameMarkers)
         {
 
-
-            Console.WriteLine($" {gameMarkers[0]} | {gameMarkers[1]} | {gameMarkers[2]} ");
+            Console.WriteLine("Beispiel Spielfeld");
+            Console.WriteLine(" 1 | 2 | 3");
             Console.WriteLine("---+---+---");
-            Console.WriteLine($" {gameMarkers[3]} | {gameMarkers[4]} | {gameMarkers[5]} ");
+            Console.WriteLine(" 4 | 5 | 6");
             Console.WriteLine("---+---+---");
-            Console.WriteLine($" {gameMarkers[6]} | {gameMarkers[7]} | {gameMarkers[8]} ");
+            Console.WriteLine(" 7 | 8 | 9");
+            Console.WriteLine();
+            Console.WriteLine("Aktuelles Spielfeld");
+            Console.WriteLine($" { GetDisplayMarker(gameMarkers[0])} | { GetDisplayMarker(gameMarkers[1])} | { GetDisplayMarker(gameMarkers[2])}");
+            Console.WriteLine("---+---+---");
+            Console.WriteLine($" {GetDisplayMarker(gameMarkers[3])} | {GetDisplayMarker(gameMarkers[4])} | {GetDisplayMarker(gameMarkers[5])}");
+            Console.WriteLine("---+---+---");
+            Console.WriteLine($" {GetDisplayMarker(gameMarkers[6])} | {GetDisplayMarker(gameMarkers[7])} | {GetDisplayMarker(gameMarkers[8])}");
         }
+        static char GetDisplayMarker(char marker)
+        {
+            if (marker.Equals('X') || marker.Equals('O'))
+            {
+                return marker;
+            }
+            else
+            {
+                return ' ';
+            }
+        }
+
+        
 
         static int GetNextPlayer(int player)
         {
