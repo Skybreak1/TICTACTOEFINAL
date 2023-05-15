@@ -9,6 +9,12 @@ namespace TicTacToe
             int gameStatus = 0;
             int currentPlayer = -1;
             char[] gameMarkers = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+            Console.WriteLine("Spieler 1, bitte geben Sie Ihren Namen ein:");
+            string player1Name = Console.ReadLine();
+
+            Console.WriteLine("Spieler 2, bitte geben Sie Ihren Namen ein:");
+            string player2Name = Console.ReadLine();
+
 
             do
             {
@@ -16,7 +22,7 @@ namespace TicTacToe
 
                 currentPlayer = GetNextPlayer(currentPlayer);
 
-                HeadsUpDisplay(currentPlayer);
+                HeadsUpDisplay(currentPlayer, player1Name, player2Name);
                 DrawGameboard(gameMarkers);
 
                 GameEngine(gameMarkers, currentPlayer);
@@ -27,7 +33,7 @@ namespace TicTacToe
             } while (gameStatus.Equals(0));
 
             Console.Clear();
-            HeadsUpDisplay(currentPlayer);
+            HeadsUpDisplay(currentPlayer, player1Name, player2Name);
             DrawGameboard(gameMarkers);
 
             if (gameStatus.Equals(1))
@@ -148,7 +154,7 @@ namespace TicTacToe
 
                     if (currentMarker.Equals('X') || currentMarker.Equals('O'))
                     {
-                        Console.WriteLine("Das Feld ist bereitrs belegt");
+                        Console.WriteLine("Das Feld ist bereits belegt");
                     }
                     else
                     {
@@ -173,17 +179,24 @@ namespace TicTacToe
 
             return 'X';
         }
-
-        static void HeadsUpDisplay(int PlayerNumber)
+        static string GetCurrentPlayerName(int player, string player1Name, string player2Name)
+        {
+            if (player.Equals(1)) 
+            {
+                return player1Name;
+            }
+            return player2Name;
+        }
+        
+        
+        static void HeadsUpDisplay(int player, string player1Name, string player2Name)
         {
 
             Console.WriteLine("Willkommen zum Super Duper Tic Tac Toe Spiel!");
-
-
-            Console.WriteLine("Spieler 1: X");
-            Console.WriteLine("Spieler 2: O");
+            Console.WriteLine($"Spieler 1({player1Name}): X");
+            Console.WriteLine($"Spieler 2({player2Name}): O");
             Console.WriteLine();
-            Console.WriteLine($"Player {PlayerNumber} wähle 1 bis 9 aus");
+            Console.WriteLine($"{GetCurrentPlayerName}, wähle eine Zahl von 1 bis 9 aus");
             Console.WriteLine();
         }
 
