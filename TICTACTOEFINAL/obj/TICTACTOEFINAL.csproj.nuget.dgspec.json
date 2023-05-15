@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robin\\source\\repos\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj": {}
+    "C:\\Users\\robin\\Documents\\GitHub\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robin\\source\\repos\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj": {
+    "C:\\Users\\robin\\Documents\\GitHub\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robin\\source\\repos\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj",
+        "projectUniqueName": "C:\\Users\\robin\\Documents\\GitHub\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj",
         "projectName": "TICTACTOEFINAL",
-        "projectPath": "C:\\Users\\robin\\source\\repos\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj",
+        "projectPath": "C:\\Users\\robin\\Documents\\GitHub\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj",
         "packagesPath": "C:\\Users\\robin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\robin\\source\\repos\\TICTACTOEFINAL\\TICTACTOEFINAL\\obj\\",
+        "outputPath": "C:\\Users\\robin\\Documents\\GitHub\\TICTACTOEFINAL\\TICTACTOEFINAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\robin\\AppData\\Roaming\\NuGet\\NuGet.Config",
