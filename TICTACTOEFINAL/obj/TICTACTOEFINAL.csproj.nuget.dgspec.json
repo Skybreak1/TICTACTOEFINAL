@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robin\\Documents\\GitHub\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj": {}
+    "C:\\Users\\Robin.Kiesel\\Source\\Repos\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robin\\Documents\\GitHub\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj": {
+    "C:\\Users\\Robin.Kiesel\\Source\\Repos\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robin\\Documents\\GitHub\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj",
+        "projectUniqueName": "C:\\Users\\Robin.Kiesel\\Source\\Repos\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj",
         "projectName": "TICTACTOEFINAL",
-        "projectPath": "C:\\Users\\robin\\Documents\\GitHub\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj",
-        "packagesPath": "C:\\Users\\robin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\robin\\Documents\\GitHub\\TICTACTOEFINAL\\TICTACTOEFINAL\\obj\\",
+        "projectPath": "C:\\Users\\Robin.Kiesel\\Source\\Repos\\TICTACTOEFINAL\\TICTACTOEFINAL\\TICTACTOEFINAL.csproj",
+        "packagesPath": "C:\\Users\\Robin.Kiesel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Robin.Kiesel\\Source\\Repos\\TICTACTOEFINAL\\TICTACTOEFINAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\robin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Robin.Kiesel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
